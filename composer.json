@@ -1,0 +1,28 @@
+{
+  "name": "ut8ia/yii2-sitemap-module",
+  "description": "module for sitemap generation",
+  "type": "library",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Eugene Anufriev",
+      "email": "eugene.anufriev@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ut8ia\\sitemapmodule\\": "/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">5.3.4",
+    "ut8ia/yii2-multylang": "*",
+    "ut8ia/yii2-content-module": "*",
+    "2amigos/yii2-transliterator-helper": "*",
+    "kartik-v/yii2-widget-select2": "@dev",
+    "conquer/codemirror": "*",
+    "2amigos/yii2-date-time-picker-widget": "~1.0"
+  }
+}
